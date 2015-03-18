@@ -1,8 +1,8 @@
-Tyˆss‰ toteutetaan joitain yleisimpi‰ j‰rjest‰misalgoritmej‰, tutkitaan miten ne toimivat ja verrataan niit‰. Algoritmeista tarkkailussa ovat ainakin lomitusj‰rjesteminen, pikaj‰rjest‰minen ja kekoj‰rjest‰minen. Lis‰ksi mahdollisesti myˆs jokin selv‰sti hitaampi algoritmi vertailun vuoksi. Valitsin kyseiset algoritmit, koska ne olivat tuttuja tietorakenteet ja algoritmit -kurssilta.
+Ty√∂ss√§ toteutetaan joitain yleisimpi√§ j√§rjest√§misalgoritmej√§, tutkitaan miten ne toimivat ja verrataan niit√§. Algoritmeista tarkkailussa ovat ainakin lomitusj√§rjesteminen, pikaj√§rjest√§minen ja kekoj√§rjest√§minen. Lis√§ksi tutustutaan joihinkin j√§rjest√§misalgoritmeihin, joita tietorakenteet ja algoritmit -kurssilla ei k√§yty l√§pi.
 
-Syˆtteeksi ohjelma saa taulukon, jonka se j‰rjest‰‰ k‰ytt‰en eri algoritmeja ja palauttaa sen j‰lkeen taulukon j‰rjest‰miseen kuluneen ajan kullakin algoritmilla.
+Sy√∂tteeksi ohjelma saa taulukon, jonka se j√§rjest√§√§ k√§ytt√§en eri algoritmeja ja palauttaa sen j√§lkeen taulukon j√§rjest√§miseen kuluneen ajan kullakin algoritmilla.
 
-Tavoitteet aika- ja tilavaativuuksille ovat n‰ille algoritmeille m‰‰ritellyt aika- ja tilavaativuudet niiden ollessa oikein toteutettuja.
+Tavoitteet aika- ja tilavaativuuksille ovat n√§ille algoritmeille m√§√§ritellyt aika- ja tilavaativuudet niiden ollessa oikein toteutettuja.
 
-L‰htein‰ tietorakenteet ja algoritmit -kurssin materiaali ja T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein: Introduction to Algorithms
+L√§htein√§ n√§in aluksi tietorakenteet ja algoritmit -kurssin materiaali ja T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein: Introduction to Algorithms. My√∂hemmin tulee tarvittaessa lis√§√§.
 
