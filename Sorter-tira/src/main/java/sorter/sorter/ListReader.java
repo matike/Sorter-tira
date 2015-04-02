@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * A class that reads a text file generated with ListGenerator and inserts it into an array. Currently not used for anything.
+ * @author matti
+ */
 public class ListReader {
 
     private FileReader fileReader;
@@ -14,12 +18,19 @@ public class ListReader {
     private String file;
     private int[] array;
 
+    /**
+     *
+     * @param file
+     */
     public ListReader(String file) {
-        this.array = new int[10000];
+        this.array = new int[100];
         this.file = file;
 
     }
 
+    /**
+     * Writes the list into an array
+     */
     public void readList() {
         int i = 0;
         try {
@@ -40,8 +51,11 @@ public class ListReader {
 
     }
 
-
-public int[] getArray() {
+    /**
+     * Returns the array.
+     * @return
+     */
+    public int[] getArray() {
         return array;
     }
 

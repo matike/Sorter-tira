@@ -1,4 +1,4 @@
-package sorter.sorter.tira;
+package sorter.sorter;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
