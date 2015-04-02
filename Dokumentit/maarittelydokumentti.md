@@ -4,7 +4,7 @@ Syötteeksi ohjelma saa taulukon, jonka se järjestää käyttäen eri algoritme
 
 Tavoitteet aika- ja tilavaativuuksille ovat näille algoritmeille määritellyt aika- ja tilavaativuudet niiden ollessa oikein toteutettuja.
 
-Pikajärjestäminen parhaassa tapauksessa on O(n log n) ja huonoimmassa O(n^2). Toimii hitaasti silloin, jos järjestys on jo valmiiksi melkein oikein, mutta tähän voi vaikuttaa valitsemalla jakoalkioksi muun kuin lähes pienimmän tai lähes suurimman.
+Pikajärjestäminen parhaassa tapauksessa on O(n log n) ja huonoimmassa O(n^2). Se toimii hitaasti silloin, jos järjestys on jo valmiiksi melkein oikein, mutta tähän voi vaikuttaa valitsemalla jakoalkioksi muun kuin lähes pienimmän tai lähes suurimman.
 
 Lomitusjärjestäminen sekä parhaassa että huonoimmassa tapauksessa on O(n log n).
 
