@@ -36,7 +36,7 @@ public class MergesortTest {
     public void sortingTest() {
         this.sort.sort(array, 0, array.length - 1);
         for (int i = 1; i < array.length; i++) {
-            assertTrue(i - 1 < i);
+            assertTrue(i - 1 <= i);
         }
 
     }

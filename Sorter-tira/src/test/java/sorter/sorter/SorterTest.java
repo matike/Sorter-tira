@@ -53,9 +53,9 @@ public class SorterTest {
 
     @Test
     public void mergesortTest() {
-        
+        this.sorter.mergesort(mergesortArray);
         for (int i = 1; i < mergesortArray.length; i++) {
-            assertTrue(i - 1 < i);
+            assertTrue(i - 1 <= i);
         }
     }
 
