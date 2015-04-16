@@ -47,7 +47,7 @@ public class SorterTest {
     public void quicksortTest() {
         this.sorter.quicksort(quicksortArray);
         for (int i = 1; i < quicksortArray.length; i++) {
-            assertTrue(i - 1 < i);
+            assertTrue(quicksortArray[i -1] <= quicksortArray[i]);
         }
     }
 
@@ -55,7 +55,7 @@ public class SorterTest {
     public void mergesortTest() {
         this.sorter.mergesort(mergesortArray);
         for (int i = 1; i < mergesortArray.length; i++) {
-            assertTrue(i - 1 <= i);
+            assertTrue(mergesortArray[i - 1] <= mergesortArray[i]);
         }
     }
 
