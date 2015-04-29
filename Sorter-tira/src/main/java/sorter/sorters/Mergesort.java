@@ -1,4 +1,4 @@
-package sorter.sorter;
+package sorter.sorters;
 
 /**
  *The class contains methods necessary for a merge sort algorithm
@@ -14,11 +14,11 @@ public class Mergesort {
 
         for (int i = 0; i < n; i++) {
             l[i] = a[left + i];
-            l[n] = 1000000;
+            l[n] = Integer.MAX_VALUE;
         }
         for (int j = 0; j < m; j++) {
             r[j] = a[middle + j + 1];
-            r[m] = 1000000;
+            r[m] = Integer.MAX_VALUE;
         }
         int i = 0;
         int j = 0;

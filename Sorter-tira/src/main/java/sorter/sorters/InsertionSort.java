@@ -1,4 +1,4 @@
-package sorter.sorter;
+package sorter.sorters;
 
 /**
  * The class contains an insertion sort algorithm

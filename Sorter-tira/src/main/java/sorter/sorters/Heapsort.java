@@ -1,4 +1,4 @@
-package sorter.sorter;
+package sorter.sorters;
 
 /**
  * The class contains methods necessary for a heapsort algorithm

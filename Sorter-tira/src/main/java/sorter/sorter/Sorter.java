@@ -1,5 +1,12 @@
 package sorter.sorter;
 
+import sorter.sorters.BogoSort;
+import sorter.sorters.Quicksort;
+import sorter.sorters.Mergesort;
+import sorter.sorters.Heapsort;
+import sorter.sorters.InsertionSort;
+import sorter.sorters.Bubblesort;
+
 /**
  * The class contains methods for using the different sorting algorithms
  *
@@ -67,4 +74,5 @@ public class Sorter {
     public void heapsort(int[] array) {
         heap.sort(array);
     }
+
 }

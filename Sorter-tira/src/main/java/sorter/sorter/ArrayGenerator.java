@@ -24,20 +24,26 @@ public class ArrayGenerator {
      *
      * @param biggestNumber The biggest number you want in this array
      */
-    public void generateRandom(int biggestNumber) {
+    public void generateRandom() {
         for (int i = 0; i < this.array.length; i++) {
-            this.array[i] = (random.nextInt(100));
+            this.array[i] = (random.nextInt(this.array.length));
         }
     }
-    
+
     public void generateReverse() {
         int j = this.array.length;
         for (int i = 0; i < this.array.length; i++) {
-            this.array[i]=j;
+            this.array[i] = j;
             j--;
+        }
     }
+
+    public void generate() {
+        for (int i = 0; i < this.array.length; i++) {
+            this.array[i] = i;
+
+        }
     }
-    
 
     public int[] getArray() {
         return array;

@@ -5,6 +5,7 @@
  */
 package sorter.sorter;
 
+import sorter.sorters.InsertionSort;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

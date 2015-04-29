@@ -1,5 +1,6 @@
 package sorter.sorter;
 
+import sorter.sorters.Mergesort;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -36,7 +37,7 @@ public class MergesortTest {
 
     @Test
     public void sortingTest() {
-        this.sort.sort(array, 0, array.length - 1);
+        this.sort.sort(array, 0, array.length -1);
         for (int i = 1; i < array.length; i++) {
             assertTrue(array[i - 1] <= array[i]);
         }

@@ -5,6 +5,7 @@
  */
 package sorter.sorter;
 
+import sorter.sorters.Bubblesort;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
